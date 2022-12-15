@@ -1,4 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+
 body {
-    background-color: red;
-    color: white;
+    background-color: snow;
+    color: rgb(187, 8, 8);
+    min-height: 100vh;
+    cursor: url("https://drive.google.com/uc?id=1kqCA1-_tN44C5XuSRGNe_m1i-IY-h8aw"), default;
+}
+
+
+h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    font-size: 5rem;
+}
+
+section.maria_est_belle {
+    display: flex;
+    justify-content: center;
+}
+
+pre {
+    border: 1px solid red;
+    padding: 2rem;
+}
+
+pre.maria_est_la_plus_forte {
+    font-size: xx-large;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(187, 8, 8);
+    cursor: url("https://drive.google.com/uc?id=1kqCA1-_tN44C5XuSRGNe_m1i-IY-h8aw"), default;
+}
+
+span.boule {
+    color: rgb(30, 151, 6);
+}
+
+.tronc {
+    color: rgb(189, 121, 4)
+}
+
+.snow {
+    color: rgb(132, 132, 173)
+}
+
+.deco1 {
+    color: darkmagenta
+}
+
+.lecteur {
+    display: flex;
+    justify-content: center;
+}
+
+#miaou {
+    display: none;
+    color: black;
+    font-size: small;
+}
+
+.lapin {
+    color: orange;
+}
+
+
+#decompte {
+    font-size: x-large;
+    justify-content: center;
+    width: 100vw;
+    display: none;
 }
