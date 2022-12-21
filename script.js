@@ -231,7 +231,7 @@ flocons.addEventListener("click", function () {
         snow.wind = 1;
         const floconsSpan = document.querySelectorAll("span.truc");
         for (let flocon of floconsSpan) {
-            flocon.innerHTML = userName;
+            flocon.innerHTML = "maria";
             isSnowfalinkg = false;
         }
     }
