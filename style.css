@@ -29,7 +29,13 @@ pre {
 }
 
 pre.maria_est_la_plus_forte {
-    font-size: xx-large;
+    font-size: small;
+}
+
+@media screen and (min-width:720px) {
+    pre.maria_est_la_plus_forte {
+        font-size: large;
+    }
 }
 
 a {
