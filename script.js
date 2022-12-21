@@ -217,3 +217,22 @@ document.getElementById("decompteNoel").addEventListener("click", function () {
     document.getElementById("decompte").style.display = "flex";
 });
 
+const flocons = document.getElementById("flocons");
+let isSnowfalinkg = false;
+flocons.addEventListener("click", function () {
+    if (!isSnowfalinkg) {
+        snow.wind = 5;
+        const floconsSpan = document.querySelectorAll("span.truc");
+        for (let flocon of floconsSpan) {
+            flocon.innerHTML = "*";
+            isSnowfalinkg = true;
+        }
+    } else {
+        snow.wind = 1;
+        const floconsSpan = document.querySelectorAll("span.truc");
+        for (let flocon of floconsSpan) {
+            flocon.innerHTML = userName;
+            isSnowfalinkg = false;
+        }
+    }
+});
