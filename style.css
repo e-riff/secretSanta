@@ -14,6 +14,10 @@ h1 {
     font-size: 5rem;
 }
 
+h2 {
+    text-align: center;
+}
+
 section.maria_est_belle {
     display: flex;
     justify-content: center;
